@@ -20,24 +20,30 @@
     width: 20px;
     height: 20px;
     margin-right: 2px;
+    order: 2;
 }
 
 .pai div:nth-child(1) {
     background-color: red;
     height: 60px;
+    align-self: center;
+    order: 3;
 }
 
 .pai div:nth-child(3) {
     background-color: green;
     height: 120px;
+    align-self: center;
 }
 
 .pai div:nth-child(5) {
     background-color: purple;
     height: 240px;
+    align-self: flex-end;
 }
 
 .pai div:nth-child(7) {
     background-color: black;
     height: 360px;
+    order: 1;
 }
