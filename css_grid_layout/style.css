@@ -10,49 +10,63 @@ body{
 
 .page-wrapper{
   display: grid;
-  height: 100vh;
+  gap: 16px;
   width: 100%;
-  grid-template-columns: repeat(3, 1fr);
-  /* grid-template-rows: 1fr 1fr 5fr; */
-  /* grid-auto-rows: 250px; */
+  grid-template-columns: 2.5fr 2.5fr 1.25fr 1.25fr 2.5fr;
 }
 
 .pad-32{
   padding: 32px;
 }
 
-.head-1 {
+.header-1 {
   background: white;
+  grid-column: 1/5;
 }
 
 .header-2 {
   background: yellow;
+  grid-column: 5/6;
 }
 
-.bannerer {
+.banner {
   background: white;
+  grid-column: 1/3;
+  grid-row: 2/3;
 }
 
 .mondrian {
   background: #3963A4;
+  grid-column: 3/5;
+  grid-row: 2/4;
 }
 
 .texto {
   background: white;
+  grid-column: 5/6;
+  grid-row: 2/5;
 }
 
 .rietveld{
   background: yellow;
+  grid-column: 1/2;
+  grid-row: 3/5;
 }
 
 .vermelho {
   background: red;
+  grid-column: 2/3;
+  grid-row: 3/5;
 }
 
 .branco {
   background: white;
+  grid-column: 3/4;
+  grid-row: 4/5;
 }
 
 .preto {
   background: black;
+  grid-column: 4/5;
+  grid-row: 4/5;
 }
