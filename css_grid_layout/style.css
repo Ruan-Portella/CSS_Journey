@@ -5,13 +5,16 @@
 body{
   margin: 0;
   padding: 16px;
-  background: #000;
+  background: #505050;
 }
 
 .page-wrapper{
   display: grid;
-  grid-template-columns: repeat(9, 1fr); 
-
+  height: 100vh;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 5fr;
+  /* grid-auto-rows: 250px; */
 }
 
 .pad-32{
