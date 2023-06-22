@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 16px;
+  background: #000;
+}
+
+.page-wrapper{
+}
+
+.pad-32{
+  padding: 32px;
+}
+
+.head-1 {
+  background: white;
+}
+
+.header-2 {
+  background: yellow;
+}
+
+.bannerer {
+  background: white;
+}
+
+.mondrian {
+  background: #3963A4;
+}
+
+.texto {
+  background: white;
+}
+
+.rietveld{
+  background: yellow;
+}
+
+.vermelho {
+  background: red;
+}
+
+.branco {
+  background: white;
+}
+
+.preto {
+  background: black;
+}
