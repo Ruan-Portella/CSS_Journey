@@ -9,6 +9,8 @@ body{
 }
 
 .page-wrapper{
+  display: grid;
+  
 }
 
 .pad-32{
