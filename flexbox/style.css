@@ -1,9 +1,10 @@
 .pai {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     width: 1000px;
-    justify-content: center;
     height: 600px;
     margin: 100px auto;
     background-color: yellow;
@@ -16,4 +17,5 @@
     border-radius: 8px;
     width: 20px;
     height: 20px;
+    margin-right: 2px;
 }
