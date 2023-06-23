@@ -11,6 +11,26 @@ nav {
         text-decoration: none;
         font-size: 18px;
         transform: scale(1.2);
-    }  
-    
+
+        span {
+            color: red;
+            font-size: 18px;
+            transform: scale(1.2);
+        }
+
+        &:hover {
+            color: green;
+        }
+    }     
+}
+
+
+@media screen and (max-width: 768px) {
+    nav {
+        a {
+            span {
+                color: green;
+            }
+        }
+    }
 }

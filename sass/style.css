@@ -22,4 +22,18 @@ nav a {
   text-decoration: none;
   font-size: 18px;
   transform: scale(1.2);
+}
+nav a span {
+  color: red;
+  font-size: 18px;
+  transform: scale(1.2);
+}
+nav a:hover {
+  color: green;
+}
+
+@media screen and (max-width: 768px) {
+  nav a span {
+    color: green;
+  }
 }/*# sourceMappingURL=style.css.map */
