@@ -1,5 +1,9 @@
-html {
+:root {
+    --base-color: rgb(158, 157, 168);
+    --white-color: white;
     --primary-color: blue;
+    --hover-color: green;
+    --contrast-color: black;
 }
 
 body {
@@ -11,9 +15,27 @@ body {
 nav {
     width: 100vw;
     height: 80px;
-    background: white;
+    background: var(--white-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    padding-left: 30px;
 }
 
 nav h1 {
     margin: 0;
+}
+
+main {
+    width: 600px;
+    height: 400px;
+    margin:  100px auto;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: var(--white-color);
 }
