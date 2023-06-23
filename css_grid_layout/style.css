@@ -53,6 +53,8 @@ body{
 .header-2 {
   background: yellow;
   grid-column: 5/6;
+  display: flex;
+  justify-content: space-between;
 }
 
 .banner {
@@ -111,6 +113,10 @@ body{
   grid-row: 2/4;
 }
 
+.mondrian h2, .mondrian p {
+  color: white;
+}
+
 .texto {
   background: white;
   grid-column: 5/6;
@@ -121,6 +127,10 @@ body{
   background: yellow;
   grid-column: 1/2;
   grid-row: 3/5;
+}
+
+.rietveld img, .mondrian img {
+  max-width: 100%;
 }
 
 .vermelho {
@@ -139,4 +149,28 @@ body{
   background: black;
   grid-column: 4/5;
   grid-row: 4/5;
+}
+
+.carrinho {
+  display: flex;
+  width: 140px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.carrinho p {
+  width: 100px;
+  display: inherit;
+  align-items: center;
+}
+
+.carrinho p span {
+  width: 24px;
+  height: 24px;
+  margin-left: 16px;
+  display: block;
+  color: white;
+  text-align: center;
+  line-height: 24px;
+  background: black;
 }
