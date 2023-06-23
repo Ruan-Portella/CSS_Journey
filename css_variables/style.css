@@ -1,9 +1,15 @@
-:root {
+:root.light {
     --base-color: rgb(158, 157, 168);
     --white-color: white;
     --primary-color: blue;
     --hover-color: green;
-    --contrast-color: black;
+}
+
+:root.dark {
+    --base-color: rgb(158, 157, 168);
+    --black-color: black;
+    --primary-color: blue;
+    --hover-color: green;
 }
 
 body {

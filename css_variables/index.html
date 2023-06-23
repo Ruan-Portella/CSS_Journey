@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,18 @@
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit dolores minus, adipisci itaque accusantium iusto, porro iure placeat assumenda quas quo eligendi omnis alias qui consequuntur, vel sequi numquam!
             </p>
+            <button>Light/Dark</button>
         </div>
     </main>
+    <script>
+        const root = document.querySelector(':root');
+        const button = document.querySelector('button');
+
+        button.addEventListener('click', () => {
+            root.classList.toggle('dark');
+            root.classList.toggle('light');
+        });
+
+    </script>
 </body>
 </html>
