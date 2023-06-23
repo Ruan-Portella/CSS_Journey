@@ -1,3 +1,18 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  display: inline-block;
+  margin: 0 10px;
+  height: 100px;
+  background-color: red;
+}
+
+main {
+  width: 800px;
+}
+
 nav {
   width: 100vw;
   height: 80px;

@@ -1,3 +1,7 @@
+@import './partials/listas';
+@import './partials/pages.scss';
+
+
 nav {
     width: 100vw;
     height: 80px;
@@ -8,4 +12,5 @@ nav {
         font-size: 18px;
         transform: scale(1.2);
     }  
+    
 }
