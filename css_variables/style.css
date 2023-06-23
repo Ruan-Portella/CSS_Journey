@@ -1,0 +1,19 @@
+html {
+    --primary-color: blue;
+}
+
+body {
+    background: var(--primary-color);
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100vw;
+    height: 80px;
+    background: white;
+}
+
+nav h1 {
+    margin: 0;
+}
