@@ -2,12 +2,12 @@
   width: 45%;
   display: table;
   background-image: url("../images/chart-up.svg");
-  background-color: green;
+  background-color: #001a00;
   border-radius: 8px;
   margin-right: 30px;
 }
 .card-positive:after {
-  content: "statusgreen";
+  content: "status#001a00";
   position: absolute;
   top: 16px;
   background-color: white;

@@ -1,3 +1,13 @@
+@function changeColor($type, $color) {
+    @if $type == light {
+        @return lighten($color, 20%);
+    } @else if $type == dark {
+        @return darken($color, 20%);
+    } @else {
+        @return $color;
+    }
+}
+
 @mixin card($bgColor, $icon) {
     width: 25% + 20%;
     display: table;
@@ -28,7 +38,7 @@
 }
 
 .card-positive {
-    @include card(green, '../images/chart-up.svg');
+    @include card(changeColor(dark, green), '../images/chart-up.svg');
 }
 
 .card-negative {
