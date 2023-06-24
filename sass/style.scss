@@ -2,6 +2,20 @@
 @import './partials/listas';
 @import './partials/pages.scss';
 
+$networs: (
+    youtube: red, 
+    twitter: blue, 
+    facebook: green, 
+    linkedin: white
+);
+
+@each $key, $value in $networs {
+    .icon-#{$key} {
+        background-image: url('../images/#{$key}.svg');
+        background-color: $value;
+    }
+}
+
 
 nav {
     width: 100vw;

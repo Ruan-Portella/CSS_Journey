@@ -13,6 +13,26 @@ main {
   width: 800px;
 }
 
+.icon-youtube {
+  background-image: url("../images/youtube.svg");
+  background-color: red;
+}
+
+.icon-twitter {
+  background-image: url("../images/twitter.svg");
+  background-color: blue;
+}
+
+.icon-facebook {
+  background-image: url("../images/facebook.svg");
+  background-color: green;
+}
+
+.icon-linkedin {
+  background-image: url("../images/linkedin.svg");
+  background-color: white;
+}
+
 nav {
   width: 100vw;
   height: 80px;
