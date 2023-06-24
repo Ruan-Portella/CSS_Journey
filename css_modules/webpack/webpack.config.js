@@ -30,7 +30,22 @@ module.exports = {
           },
           {
             test: /\.css$/i,
-            use: ["style-loader", "css-loader"],
+            use: [
+              {
+              loader: 'style-loader',
+              options: {
+                esModule: true,
+              },
+            }, 
+            {
+              loader: 'css-loader',
+              options: {
+                esModule: true,
+                modules: {
+                  namedExport: true,
+                },
+              },
+            }]
           },
         ]
       }
