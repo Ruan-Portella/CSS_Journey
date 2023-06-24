@@ -16,6 +16,24 @@ $networs: (
     }
 }
 
+@mixin responsive($screen) {
+    @if $screen == mobile {
+        @media screen and (max-width: 768px) {
+            @content;
+        }
+    } @else if $screen == tablet {
+        @media screen and (max-width: 1024px) {
+            @content;
+        }
+    } @else if $screen == desktop {
+        @media screen and (max-width: 1440px) {
+            @content;
+        }
+    } @else {
+        @content;
+    }
+}
+
 
 nav {
     width: 100vw;
@@ -25,6 +43,12 @@ nav {
         @for $item from 1 to 4 {
             li {
                 background-color: red;
+            }
+        }
+
+        @include responsive(mobile) {
+            li {
+                background-color: blue;
             }
         }
     }

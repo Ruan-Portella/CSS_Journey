@@ -46,6 +46,11 @@ nav ul li {
 nav ul li {
   background-color: red;
 }
+@media screen and (max-width: 768px) {
+  nav ul li {
+    background-color: blue;
+  }
+}
 nav a {
   color: blue;
   text-decoration: none;
