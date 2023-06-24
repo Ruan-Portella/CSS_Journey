@@ -1,3 +1,4 @@
+@import './partials/theme';
 @import './partials/listas';
 @import './partials/pages.scss';
 
@@ -7,19 +8,20 @@ nav {
     height: 80px;
 
     a {
-        color: blue;
+        color: $primary-color;
         text-decoration: none;
         font-size: 18px;
+        margin-bottom: $m-8;
         transform: scale(1.2);
 
         span {
-            color: red;
+            color: $secondary-color;
             font-size: 18px;
             transform: scale(1.2);
         }
 
         &:hover {
-            color: green;
+            color: $secondary-color;
         }
     }     
 }
@@ -29,7 +31,7 @@ nav {
     nav {
         a {
             span {
-                color: green;
+                color: $primary-color;
             }
         }
     }

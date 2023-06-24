@@ -21,6 +21,7 @@ nav a {
   color: blue;
   text-decoration: none;
   font-size: 18px;
+  margin-bottom: 8px;
   transform: scale(1.2);
 }
 nav a span {
@@ -29,11 +30,11 @@ nav a span {
   transform: scale(1.2);
 }
 nav a:hover {
-  color: green;
+  color: red;
 }
 
 @media screen and (max-width: 768px) {
   nav a span {
-    color: green;
+    color: blue;
   }
 }/*# sourceMappingURL=style.css.map */
