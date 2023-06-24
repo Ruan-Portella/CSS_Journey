@@ -1,0 +1,45 @@
+.card-positive {
+  width: 25%;
+  display: table;
+  background-image: url("../images/chart-up.svg");
+  background-color: green;
+  border-radius: 8px;
+  margin-right: 30px;
+}
+
+.card-negative {
+  width: 25%;
+  display: table;
+  background-image: url("../images/chart-down.svg");
+  background-color: red;
+  border-radius: 8px;
+  margin-right: 30px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  background-color: red;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+}/*# sourceMappingURL=style.css.map */

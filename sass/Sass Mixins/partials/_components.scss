@@ -1,0 +1,33 @@
+@mixin card($bgColor, $icon) {
+    width: 25%;
+    display: table;
+    background-image: url($icon);
+    background-color: $bgColor;
+    border-radius: 8px;
+    margin-right: 30px;
+}
+
+@mixin button {
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.card-positive {
+    @include card(green, '../images/chart-up.svg');
+}
+
+.card-negative {
+    @include card(red, '../images/chart-down.svg');
+}
+
+.btn {
+    @include button();
+}
