@@ -21,6 +21,15 @@ nav {
     width: 100vw;
     height: 80px;
 
+    ul {
+        @for $item from 1 to 4 {
+            li {
+                background-color: red;
+            }
+        }
+    }
+    
+
     a {
         color: $primary-color;
         text-decoration: none;

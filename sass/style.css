@@ -37,6 +37,15 @@ nav {
   width: 100vw;
   height: 80px;
 }
+nav ul li {
+  background-color: red;
+}
+nav ul li {
+  background-color: red;
+}
+nav ul li {
+  background-color: red;
+}
 nav a {
   color: blue;
   text-decoration: none;
