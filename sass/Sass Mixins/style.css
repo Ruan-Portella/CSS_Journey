@@ -1,19 +1,31 @@
 .card-positive {
-  width: 25%;
+  width: 45%;
   display: table;
   background-image: url("../images/chart-up.svg");
   background-color: green;
   border-radius: 8px;
   margin-right: 30px;
 }
+.card-positive:after {
+  content: "statusgreen";
+  position: absolute;
+  top: 16px;
+  background-color: white;
+}
 
 .card-negative {
-  width: 25%;
+  width: 45%;
   display: table;
   background-image: url("../images/chart-down.svg");
   background-color: red;
   border-radius: 8px;
   margin-right: 30px;
+}
+.card-negative:after {
+  content: "statusred";
+  position: absolute;
+  top: 16px;
+  background-color: white;
 }
 
 .btn {
