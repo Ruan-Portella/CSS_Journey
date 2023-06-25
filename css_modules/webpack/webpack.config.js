@@ -43,6 +43,7 @@ module.exports = {
                 esModule: true,
                 modules: {
                   namedExport: true,
+                  localIdentName: "[name]-[local]-[hash:base64:5]",
                 },
               },
             }]
